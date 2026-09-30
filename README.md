@@ -5,7 +5,8 @@ An independently hosted preview of the interactive dpu-simulator website for Kub
 **Open the demo:** https://wizhaoredhat.github.io/dpu-simulator-demo/
 
 The guided tour explains conventional networking, DPU offload, and the Kind/VM
-simulation topology, and includes a copyable Kind quickstart.
+simulation topology, and includes a copyable Kind quickstart. A linked BlueField-3 /
+Kind comparison explains management, gateway, uplink, and workload interfaces.
 
 ## Source
 
@@ -13,7 +14,8 @@ This repository contains the generated static website. The source lives in the
 `website/` directory of the dpu-simulator development checkout.
 
 - Upstream project: https://github.com/ovn-kubernetes/dpu-simulator
-- Source commit used for this publication: `4317a1cccb617438eb74cc9bb49d80adabc8ca24`
+- Source checkout base: `4317a1cccb617438eb74cc9bb49d80adabc8ca24`, plus the
+  BlueField-3 hardware comparison changes developed on 2026-09-30 (pending a source commit).
 - GitHub Pages publishes `main` from the repository root.
 
 ## Update the preview
